@@ -1,0 +1,74 @@
+/* notes.css: Notes component-specific styles */
+
+.Notes-container {
+  background: #fffbe7;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(236, 180, 87, 0.11);
+  margin: 8px;
+  border: 2px solid #fde68a;
+  width: 100%;
+  max-width: 420px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notes-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+/* Button for Notes App */
+.btn-primary {
+  background: #facc15;
+  color: #7f4f00;
+  margin-bottom: 16px;
+}
+
+.btn-primary:hover {
+  background: #fbbf24;
+  color: #6d3701;
+}
+
+.Notes-list {
+  width: 100%;
+  margin: 22px 0 0 0;
+}
+
+.Notes-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: #fdf6e4;
+  border-radius: 7px;
+  margin-bottom: 12px;
+  padding: 13px 15px;
+  box-shadow: 0 1.5px 4px rgba(226,140,24,0.06);
+}
+
+.Notes-item label {
+  color: #fbbf24;
+  font-size: 0.95em;
+  min-width: 24px;
+  font-weight: bold;
+}
+
+.Notes-item div p {
+  margin: 0;
+  font-size: 1.04rem;
+  color: #1a1f24;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.Notes-item button {
+  background: transparent;
+  color: #eab308;
+  font-size: 1.25em;
+  margin-left: auto;
+  padding: 2px 8px;
+}
+.Notes-item button:hover {
+  background: #fef08a;
+}

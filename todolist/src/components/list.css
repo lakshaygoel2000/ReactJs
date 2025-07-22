@@ -1,0 +1,73 @@
+/* todo.css: ToDoList component-specific styles */
+
+.todo-container {
+  background: #f0f6ff;
+  border-radius: 13px;
+  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.10);
+  margin: 8px;
+  border: 2px solid #dbeafe;
+  width: 100%;
+  max-width: 400px;
+  padding: 32px 28px;
+}
+
+/* Specific to To-Do List input and button section */
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.input-section button {
+  background-color: #6366f1;
+  color: #fff;
+}
+
+.input-section button:hover {
+  background: #4338ca;
+}
+
+/* To-Do List specific list styles */
+.todo-list {
+  margin-top: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f8fafc;
+  padding: 12px 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.todo-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #6366f1;
+}
+
+.todo-item input[type="text"] {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 6px 0;
+}
+
+.todo-item input.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-item button {
+  background: transparent;
+  color: #e11d48;
+  font-size: 1rem;
+  padding: 5px 12px;
+}
+
+.todo-item button:hover {
+  background: #fee2e2;
+}
