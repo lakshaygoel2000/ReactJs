@@ -1,0 +1,20 @@
+[
+    {
+        "Category": "UI",
+        "Description":"Submit Button Coming to extreme left",
+        "Priority":"2",
+        "Status":"open"
+    },
+    {
+        "Category": "Functional",
+        "Description":"A pop should appear on submitting form data",
+        "Priority":"1",
+        "Status":"open"
+    },
+    {
+        "Category": "Change Request",
+        "Description":"Add Remove User Functionality",
+        "Priority":"3",
+        "Status":"Closed"
+    }
+]

@@ -24,7 +24,7 @@ function Login(){
 
     return(
         <>
-            <div>
+            <div className="Output-Container">
                 <form className="LoginForm">
                     <label>Username:</label>
                     <input
@@ -38,6 +38,7 @@ function Login(){
                         type="password"
                         value={Password}
                         onChange={(e)=>setPassword(e.target.value)}
+                        onKeyPress={(e)=>e.key === "Enter" ? handleLogin() : null}
                         placeholder="Enter Password"
                     ></input>
                     <button type="button" onClick={handleLogin}>Login</button>

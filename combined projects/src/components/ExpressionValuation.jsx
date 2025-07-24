@@ -15,12 +15,16 @@ function calc(){
     }
     return(
         <>
-            <h1>Expression Valuation</h1>
-            <input type="text" placeholder="Enter expression 1" value={x} onChange={(e)=>setX(e.target.value)} />
-            <br />
-            <input type="text" placeholder="Enter expression 2" value={y} onChange={(e)=>setY(e.target.value)}/>
-            <button onClick={valuate}>Evaluate</button>
-            <p>{res}</p>
+        <div className="Output-Container">
+            <div style={{display:"flex", flexDirection:"column", justifyContent:"start", width:"400px", gap:"10px"}}>
+                <h1>Expression Valuation</h1>
+                <input type="text" placeholder="Enter expression 1" value={x} onChange={(e)=>setX(e.target.value)} style={{height:"20px", position:"Relative"}} />
+                <br />
+                <input type="text" placeholder="Enter expression 2" value={y} onChange={(e)=>setY(e.target.value)} style={{height:"20px", position:"Relative"}}/>
+                <button onClick={valuate}>Evaluate</button>
+                <p>{res}</p>
+            </div>
+        </div>
         </>
     )
 }
